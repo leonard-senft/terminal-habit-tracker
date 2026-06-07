@@ -14,7 +14,7 @@ def main():
         print("4. Delete habit")
         print("5. Exit")
 
-        choice=input("Choose an option 1-4! ").strip()
+        choice=input("Choose an option 1-5! ").strip()
 
         if choice == "1":
             add_habit(habits)
